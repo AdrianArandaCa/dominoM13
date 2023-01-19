@@ -28,33 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelPrueba = new System.Windows.Forms.Label();
+            this.picture = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picture)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelPrueba
             // 
-            this.label1.Location = new System.Drawing.Point(46, 98);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(480, 180);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            this.labelPrueba.Location = new System.Drawing.Point(118, 59);
+            this.labelPrueba.Name = "labelPrueba";
+            this.labelPrueba.Size = new System.Drawing.Size(109, 60);
+            this.labelPrueba.TabIndex = 0;
+            this.labelPrueba.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // picture
+            // 
+            this.picture.Location = new System.Drawing.Point(413, 91);
+            this.picture.Name = "picture";
+            this.picture.Size = new System.Drawing.Size(100, 50);
+            this.picture.TabIndex = 1;
+            this.picture.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.picture);
+            this.Controls.Add(this.labelPrueba);
             this.Name = "Form1";
             this.Text = "Domino";
+            ((System.ComponentModel.ISupportInitialize)(this.picture)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label labelPrueba;
+        public System.Windows.Forms.PictureBox picture;
     }
 }
 

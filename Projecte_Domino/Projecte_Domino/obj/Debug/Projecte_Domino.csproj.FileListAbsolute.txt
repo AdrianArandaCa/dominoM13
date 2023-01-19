@@ -8,3 +8,14 @@ C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.Gener
 C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.CoreCompileInputs.cache
 C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.exe
 C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.pdb
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\bin\Debug\Projecte_Domino.exe.config
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\bin\Debug\Projecte_Domino.exe
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\bin\Debug\Projecte_Domino.pdb
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.AssemblyReference.cache
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.SuggestedBindingRedirects.cache
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.Properties.Resources.resources
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.Vista.Form1.resources
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.GenerateResource.cache
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.CoreCompileInputs.cache
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.exe
+C:\DominoCompartido\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.pdb
