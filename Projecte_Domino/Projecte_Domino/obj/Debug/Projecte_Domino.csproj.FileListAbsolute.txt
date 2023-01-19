@@ -1,0 +1,10 @@
+C:\visual\Projecte_Domino\Projecte_Domino\bin\Debug\Projecte_Domino.exe.config
+C:\visual\Projecte_Domino\Projecte_Domino\bin\Debug\Projecte_Domino.exe
+C:\visual\Projecte_Domino\Projecte_Domino\bin\Debug\Projecte_Domino.pdb
+C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.AssemblyReference.cache
+C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.SuggestedBindingRedirects.cache
+C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.Properties.Resources.resources
+C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.GenerateResource.cache
+C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.csproj.CoreCompileInputs.cache
+C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.exe
+C:\visual\Projecte_Domino\Projecte_Domino\obj\Debug\Projecte_Domino.pdb
