@@ -27,15 +27,32 @@ namespace Projecte_Domino.Controller
         public void prova()
         {
             //f.labelPrueba.Text
-            byte[] bytesUtf16 = Encoding.Unicode.GetBytes("U+1F037");
-            using (MemoryStream ms = new MemoryStream(bytesUtf16))
+            byte[] bytesUtf16 = Encoding.Unicode.GetBytes("\U0001F037");
+            int ultimByte = 2;
+            List<Fitxa> fitxes = new List<Fitxa>();
+            string text;
+            Fitxa fitxa;
+            for (int columna = 0; columna <= 7; columna++)
             {
-                f.picture.Image = Image.FromStream(ms);
+                for (int fila = 0; fila <= 7; fila++)
+                {
+                    if (columna >= fila)
+                    {
+                        fitxa = new Fitxa(fila, columna);
+                        fitxes.Add(fitxa);
+                    }
+                }
             }
-            
-           // string convertedUtf16 = Encoding.Unicode.GetString(bytesUtf16);
-          //  f.labelPrueba.Text = convertedUtf16;
+. 
+
+            text = Encoding.Unicode.GetString(bytesUtf16);
+            fitxes.Add(text);
+            bytesUtf16[ultimByte]++;
+            f.labelPrueba.Text = text;
         }
+        // string convertedUtf16 = Encoding.Unicode.GetString(bytesUtf16);
+        //  f.labelPrueba.Text = convertedUtf16;
+    }
        
 
 
