@@ -18,44 +18,47 @@ namespace Projecte_Domino.Controller
         {
             f = new Form1();
 
+
             //  initListeners();
-            prova();
+
+            mostrarFitxes();
             Application.Run(f);
-           
+
         }
 
-        public void prova()
+        public void mostrarFitxes()
         {
-            //f.labelPrueba.Text
-            byte[] bytesUtf16 = Encoding.Unicode.GetBytes("\U0001F037");
-            int ultimByte = 2;
-            List<Fitxa> fitxes = new List<Fitxa>();
-            string text;
-            Fitxa fitxa;
-            for (int columna = 0; columna <= 7; columna++)
+            string[,] fitxes = generarFitxes();
+            Label label = new Label();
+            Font font = new Font(label.Font.FontFamily, 55);
+            label.Size = new Size(1171, 675);
+            label.Font = font;
+            for (int i = 0; i < fitxes.GetLength(0); i++)
             {
-                for (int fila = 0; fila <= 7; fila++)
+                for (int j = 0; j < fitxes.GetLength(1); j++)
                 {
-                    if (columna >= fila)
-                    {
-                        fitxa = new Fitxa(fila, columna);
-                        fitxes.Add(fitxa);
-                    }
+
+                    label.Text += fitxes[i, j].ToString() + " ";
+                    f.Controls.Add(label);
+                }
+                label.Text += "\n";
+            }
+        }
+
+        public string[,] generarFitxes()
+        {
+            int pos = 2;
+            byte[] bytesUtf16 = Encoding.Unicode.GetBytes("\U0001F031");
+            string[,] dominoFitxes = new string[7, 7];
+            for (int i = 0; i < 7; i++)
+            {
+                for (int j = 0; j < 7; j++)
+                {
+                    dominoFitxes[i, j] = Encoding.Unicode.GetString(bytesUtf16).ToString();
+                    bytesUtf16[pos]++;
                 }
             }
-. 
-
-            text = Encoding.Unicode.GetString(bytesUtf16);
-            fitxes.Add(text);
-            bytesUtf16[ultimByte]++;
-            f.labelPrueba.Text = text;
+            return dominoFitxes;
         }
-        // string convertedUtf16 = Encoding.Unicode.GetString(bytesUtf16);
-        //  f.labelPrueba.Text = convertedUtf16;
-    }
-       
-
-
-
     }
 }
